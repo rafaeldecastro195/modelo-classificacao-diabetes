@@ -1,4 +1,4 @@
-﻿# Aplicação web para Pré-Diagnóstico de Diabetes em Homens e Mulheres usando Aprendizado Supervisionado
+﻿# Aplicação web para Pré-Diagnóstico de Diabetes usando Aprendizado Supervisionado
 
 Projeto em estágio de desenvolvimento.
 

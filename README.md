@@ -1,5 +1,5 @@
-﻿# Aprendizado Supervisionado de Machine Learning: Modelo para diagnóstico de diabetes, voltado para o público feminino
+﻿# Aplicação web para Pré-Diagnóstico de Diabetes em Homens e Mulheres 
 
-Projeto em estágio avançado de desenvolvimento.
+Projeto em estágio de desenvolvimento.
 
 Em breve será totalmente enviado ao GitHub.

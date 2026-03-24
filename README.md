@@ -21,7 +21,6 @@ Serão testados diferentes Modelos de Classificação para se determinar qual o 
 | `Python` | Linguagem de programação multiuso | Linguagem usada em todo o processo, desde as análises descritivas e preditivas até a aplicação web |
 | `Pandas` | Biblioteca de manipulação de dados | Usada em todo o processo de análise de dados, da Análise Exploratória de Dados à criação e teste dos modelos |
 | `Numpy` | Biblioteca de cálculo científico | Usada principalmente na Análise Exploratória de Dados, junto ao Pandas |
-| `SciPy` | Bibloteca de cálculo científico | Usada para calcular a `Curva Normal Gaussiana` nos histogramas de Matplotlib e Seaborn |
 | `Matplotlib` | Biblioteca de visualização de dados | Usada em histogramas e boxplots da Análise Exploratória de Dados, junto a Seaborn |
 | `Seaborn` | Biblioteca de visualização de dados | Usada em histogramas e boxplots da Análise Exploratória de Dados, junto a Matplotlib |
 | `Scikit-Learn` | Biblioteca para treinamento e testes de modelos de Machine Learning | Separação dos dados em treino e teste, criação de modelos como Logistic Regression |

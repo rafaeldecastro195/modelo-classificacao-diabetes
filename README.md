@@ -36,8 +36,8 @@ O modelo feito com XGBoost e predict_proba já está pronto. As Análises Explor
 ## Próximos passos
 
 1. Conclusão das `Análises Exploratórias dos Dados`
-2. Criação, treino e testes de novos modelos, como `Logistic Regression`, para determinar qual o melhor e salvá-lo em `.pkl` (picle, Joblib)
+2. Criação, treino e testes de novos modelos, como `Logistic Regression`, para determinar qual o melhor e salvá-lo em `.pkl` (`Pickle`, `Joblib`)
 3. Criação da aplicação web, à partir do frontend com `Streamlit` e o modelo no formato `.pkl`
-4. Testes da aplicação e usar o projeto na `Streamlit Community Cloud`
+4. Testes da aplicação e subir o projeto na `Streamlit Community Cloud` para disponibilizar para usuários 
 
 ## Muito obrigado por sua visita ao repositório!

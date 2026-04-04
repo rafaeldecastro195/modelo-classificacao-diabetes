@@ -25,7 +25,7 @@ Serão testados diferentes Modelos de Classificação para se determinar qual o 
 | `Seaborn` | Biblioteca de visualização de dados | Usada em histogramas e boxplots da Análise Exploratória de Dados, junto a Matplotlib |
 | `Scikit-Learn` | Biblioteca para treinamento e testes de modelos de Machine Learning | Separação dos dados em treino e teste, criação de modelos como Logistic Regression |
 | `XGBoost` | Biblioteca de otimização de gradiente, baseada em Árvores de Decisão | Criação do modelo, instância de XGBClassifier, que usa o método `.predict_proba()` para calcular a probabilidade |
-| `Imbalanced Learn` | Biblioteca para balanceamento de classes | Balanceamento das classes `0` e `1`, usando `SMOTE`, uma vez que  negativo ocorre em mais de 90% dos casos do atributo `diagnostico_diabetes` |
+| `Imbalanced Learn` | Biblioteca para balanceamento de classes | Balanceamento das classes `0` e `1`, presentes no atributo target `diagnostico_diabetes` usando `SMOTE`, uma vez que  negativo ocorre em mais de 90% dos casos do atributo `diagnostico_diabetes` |
 | `Streamlit` | Framework de frontend, com foco em modelos em produção e prototipagem | Criar o frontend da aplicação web, para melhor experiência do usuário |
 | `Joblib` | Biblioteca de conjunto de ferramentas para fornecer pipelines leves | Salvar o modelo mais eficiente para poder usá-lo na aplicação web |
 

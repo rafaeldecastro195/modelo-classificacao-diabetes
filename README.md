@@ -8,7 +8,7 @@ Em breve será totalmente enviado ao GitHub.
 
 ## Sobre o projeto
 
-Trata-se de o desenvolvimento de uma aplicação web, que usa um algoritmo de `Machine Learning` e `Aprendizado Supervisionado de Classificação`, para trazer ao usuário a probabilidade de ele ter o diagnóstico positivo de `diabetes mellitus`, expresso por percentual. A aplicação irá fornecer conselhos e conteúdo sobre o que fazer, de acordo com o percentual de positividade do paciente no contexto. Será assim, pois ***o diagnóstico é feito pelos profissionais de saúde competentes.*** O objetivo é, portanto, incentivar o paciente a buscar ajuda profissional, uma vez que a `diabetes mellitus` possa ter sintomas imperceptíveis.
+Trata-se de o desenvolvimento de uma aplicação web, que usa um algoritmo de `Machine Learning` e `Aprendizado Supervisionado de Classificação`, para trazer ao usuário a probabilidade de ele ter o diagnóstico positivo de `diabetes mellitus`, expresso por percentual. A aplicação irá fornecer conselhos e conteúdo sobre o que fazer, de acordo com o percentual de positividade do paciente no contexto. Será assim, pois ***o diagnóstico é feito pelos profissionais de saúde competentes.*** O objetivo é, portanto, **incentivar o paciente a buscar ajuda profissional**, uma vez que a `diabetes mellitus` possa ter sintomas imperceptíveis.
 
 Nele, é usado o dataset [Diabetes prediction dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset/data), disponível na plataforma Kaggle.
 
@@ -29,15 +29,22 @@ Serão testados diferentes Modelos de Classificação para se determinar qual o 
 | `Streamlit` | Framework de frontend, com foco em modelos em produção e prototipagem | Criar o frontend da aplicação web, para melhor experiência do usuário |
 | `Joblib` | Biblioteca de conjunto de ferramentas para fornecer pipelines leves | Salvar o modelo mais eficiente para poder usá-lo na aplicação web |
 
-## Aonde o projeto está atualmente
+## Status atual do Projeto
 
-O modelo feito com XGBoost e predict_proba já está pronto. As Análises Exploratórias dos Dados estão sendo aprimoradas com histogramas com Curva Normal e KDE, para maior entendimento da evolução dos dados, e boxplot, para visualização e posterior tratamento de outliers.
+O modelo feito com `XGBoost` e `.predict_proba()` já está operando, mas sobre ajustes. As `Análises Exploratórias dos Dados` estão sendo aprimoradas com `histogramas` com `Curva de Distribuição Normal` e KDE, para maior entendimento da distribuição dos dados, e `boxplot`, para visualização e posterior tratamento de outliers.
 
 ## Próximos passos
 
 1. Conclusão das `Análises Exploratórias dos Dados`
 2. Criação, treino e testes de novos modelos, como `Logistic Regression`, para determinar qual o melhor e salvá-lo em `.pkl` (`Pickle`, `Joblib`)
 3. Criação da aplicação web, à partir do frontend com `Streamlit` e o modelo no formato `.pkl`
-4. Testes da aplicação e subir o projeto na `Streamlit Community Cloud` para disponibilizar para usuários 
+4. Testes da aplicação e subir o projeto na `Streamlit Community Cloud` para disponibilizar para usuários
+5. Atualização do `README.md` com seções de:
+   - `Contexto`, explicando sobre a doença, a partir de consultas de artigos relacionados ao tema;
+   - `Problema`, explicando as dificuldades de diagnóstico, a partir de consultas de artigos relacionados ao tema;
+   - `Proposta`, explicando melhor sobre o projeto em si;
+   - `Resultados`, apresentando de prints da aplicação rodando, por se tratar de um portfólio;
+   - `Referências`, apresentando todos os conteúdos utilizados como base, divididos entre `contextuais`, para conhecimentos relacionados ao contexto da doença e diagnóstico, e `técnicos`, para conhecimentos relacionados ao algoritmo;
+   - `Atualização de demais tópicos`.
 
 ## Muito obrigado por sua visita ao repositório!
